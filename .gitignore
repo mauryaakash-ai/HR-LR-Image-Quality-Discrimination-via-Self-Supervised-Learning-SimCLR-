@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datasets
+Dataset/
+data/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+checkpoints_*/
+
+# Training logs and large outputs
+*.log
+*_log*.txt
+finetune_*.txt
+simclr_*.txt
+nohup.out
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
