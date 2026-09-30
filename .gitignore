@@ -14,9 +14,10 @@ data/
 checkpoints/
 checkpoints_*/
 
-# Large raw training logs and outputs
-logs/raw/
-*.log.gz
+# Logs and training outputs
+logs/
+*.log
+*.txt
 nohup.out
 
 # IDE and OS
