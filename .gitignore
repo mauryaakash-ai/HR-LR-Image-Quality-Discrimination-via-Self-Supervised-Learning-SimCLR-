@@ -14,11 +14,9 @@ data/
 checkpoints/
 checkpoints_*/
 
-# Training logs and large outputs
-*.log
-*_log*.txt
-finetune_*.txt
-simclr_*.txt
+# Large raw training logs and outputs
+logs/raw/
+*.log.gz
 nohup.out
 
 # IDE and OS

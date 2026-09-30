@@ -1,0 +1,31 @@
+======================================================================
+Log Source: finetune_hr_lr_ft_log.txt
+======================================================================
+
+--- Experiment Configuration ---
+Train batches: 328 | Val batches: 47
+Starting HR vs LR linear probe for 20 epochs...
+=== Best Val Accuracy: 83.71% ===
+
+--- Training Trajectory ---
+Epoch [ 1/20] Loss: 0.7033 | Train Acc: 63.51% | Val Acc: 67.39%
+Epoch [ 2/20] Loss: 0.6957 | Train Acc: 64.73% | Val Acc: 66.57%
+Epoch [ 3/20] Loss: 0.6506 | Train Acc: 66.39% | Val Acc: 66.06%
+Epoch [ 4/20] Loss: 0.6298 | Train Acc: 67.97% | Val Acc: 64.89%
+Epoch [ 5/20] Loss: 0.5955 | Train Acc: 70.07% | Val Acc: 65.82%
+Epoch [ 6/20] Loss: 0.5740 | Train Acc: 71.35% | Val Acc: 67.97%
+Epoch [ 7/20] Loss: 0.5530 | Train Acc: 72.74% | Val Acc: 67.76%
+Epoch [ 8/20] Loss: 0.5468 | Train Acc: 73.75% | Val Acc: 66.49%
+Epoch [ 9/20] Loss: 0.5204 | Train Acc: 75.60% | Val Acc: 72.18%
+Epoch [10/20] Loss: 0.5051 | Train Acc: 76.17% | Val Acc: 71.67%
+Epoch [11/20] Loss: 0.4804 | Train Acc: 77.78% | Val Acc: 77.12%
+Epoch [12/20] Loss: 0.4538 | Train Acc: 79.52% | Val Acc: 67.45%
+Epoch [13/20] Loss: 0.4340 | Train Acc: 80.72% | Val Acc: 75.23%
+Epoch [14/20] Loss: 0.4128 | Train Acc: 81.81% | Val Acc: 75.95%
+Epoch [15/20] Loss: 0.4061 | Train Acc: 82.03% | Val Acc: 79.50%
+Epoch [16/20] Loss: 0.3869 | Train Acc: 83.19% | Val Acc: 73.56%
+Epoch [17/20] Loss: 0.3667 | Train Acc: 84.25% | Val Acc: 79.80%
+Epoch [18/20] Loss: 0.3636 | Train Acc: 84.44% | Val Acc: 78.01%
+Epoch [19/20] Loss: 0.3547 | Train Acc: 84.72% | Val Acc: 83.04%
+Epoch [20/20] Loss: 0.3503 | Train Acc: 84.92% | Val Acc: 83.71%
+

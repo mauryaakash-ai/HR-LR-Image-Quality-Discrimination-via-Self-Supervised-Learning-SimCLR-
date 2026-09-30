@@ -1,0 +1,40 @@
+======================================================================
+Log Source: linear_eval_hr_lr.py
+Date: 2026-09-30
+======================================================================
+
+--- Experiment Configuration ---
+Device: cuda
+HR Directory: Dataset/DIV2K_train_HR (800 2K images)
+LR Directory: Dataset/DIV2K_train_LR_bicubic_X4/X4 (800 x4 Bicubic images)
+Checkpoint: ./checkpoints_pretrain_256/checkpoint_epoch0100.pth
+ResNet Depth: 18
+HR Patch Size: 256x256
+LR Patch Size: 64x64 (Bicubic upscaled to 256x256)
+Train Split: 700 paired images
+Val Split: 100 paired images
+Patches extracted per image: 10
+
+--- Feature Extraction ---
+Pretrained Train features: (7000, 512) | Val features: (1000, 512)
+Linear Classifier: LogisticRegression(C=1.0, max_iter=1000)
+
+--- Final Results ---
+============================================================
+           LINEAR EVALUATION RESULTS (DIV2K HR vs LR)
+============================================================
+Random Encoder Baseline Val Accuracy:     78.80%
+Pretrained Encoder Train Accuracy:        99.96%
+Pretrained Encoder Validation Accuracy:   99.60%
+Representation Quality Gain:              +20.80%
+============================================================
+
+Classification Report (Validation Split):
+                  precision    recall  f1-score   support
+
+   HR (Clean: 0)       1.00      0.99      1.00       500
+LR (Degraded: 1)       0.99      1.00      1.00       500
+
+        accuracy                           1.00      1000
+       macro avg       1.00      1.00      1.00      1000
+    weighted avg       1.00      1.00      1.00      1000

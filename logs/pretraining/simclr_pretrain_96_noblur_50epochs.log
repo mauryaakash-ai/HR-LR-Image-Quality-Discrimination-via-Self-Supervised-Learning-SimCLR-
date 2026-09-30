@@ -1,0 +1,73 @@
+======================================================================
+Log Source: simclr_hr_noblur_log.txt
+======================================================================
+
+--- Experiment Configuration ---
+Using device: cuda
+GPU: NVIDIA RTX 2000 Ada Generation
+Found 800 HR images — loading into memory...
+Loaded 100/800
+Loaded 200/800
+Loaded 300/800
+Loaded 400/800
+Loaded 500/800
+Loaded 600/800
+Loaded 700/800
+Loaded 800/800
+Dataset: 312 batches/epoch
+Model: ResNet-18 + 3-layer projection head
+Starting pretraining for 50 epochs...
+scaled_lr=0.150000 | warmup=3120 steps | total=15600 steps
+
+--- Training Trajectory ---
+Epoch [  1/50] Loss: 10.5684 | Contrast Acc: 0.0598 | LR: 0.015000
+Epoch [  2/50] Loss: 9.8599 | Contrast Acc: 0.0917 | LR: 0.030000
+Epoch [  3/50] Loss: 9.4336 | Contrast Acc: 0.1222 | LR: 0.045000
+Epoch [  4/50] Loss: 9.2494 | Contrast Acc: 0.1409 | LR: 0.060000
+Epoch [  5/50] Loss: 9.1199 | Contrast Acc: 0.1572 | LR: 0.075000
+Epoch [  6/50] Loss: 9.0113 | Contrast Acc: 0.1871 | LR: 0.090000
+Epoch [  7/50] Loss: 8.8605 | Contrast Acc: 0.2400 | LR: 0.105000
+Epoch [  8/50] Loss: 8.7441 | Contrast Acc: 0.2875 | LR: 0.120000
+Epoch [  9/50] Loss: 8.6378 | Contrast Acc: 0.3279 | LR: 0.135000
+Epoch [ 10/50] Loss: 8.5716 | Contrast Acc: 0.3615 | LR: 0.150000
+Epoch [ 11/50] Loss: 8.5083 | Contrast Acc: 0.3856 | LR: 0.149769
+Epoch [ 12/50] Loss: 8.4500 | Contrast Acc: 0.4233 | LR: 0.149077
+Epoch [ 13/50] Loss: 8.4245 | Contrast Acc: 0.4322 | LR: 0.147928
+Epoch [ 14/50] Loss: 8.3869 | Contrast Acc: 0.4502 | LR: 0.146329
+Epoch [ 15/50] Loss: 8.3577 | Contrast Acc: 0.4677 | LR: 0.144291
+Epoch [ 16/50] Loss: 8.3328 | Contrast Acc: 0.4832 | LR: 0.141825
+Epoch [ 17/50] Loss: 8.3221 | Contrast Acc: 0.4890 | LR: 0.138948
+Epoch [ 18/50] Loss: 8.3073 | Contrast Acc: 0.5025 | LR: 0.135676
+Epoch [ 19/50] Loss: 8.2863 | Contrast Acc: 0.5125 | LR: 0.132030
+Epoch [ 20/50] Loss: 8.2763 | Contrast Acc: 0.5199 | LR: 0.128033
+Epoch [ 21/50] Loss: 8.2658 | Contrast Acc: 0.5277 | LR: 0.123709
+Epoch [ 22/50] Loss: 8.2529 | Contrast Acc: 0.5353 | LR: 0.119084
+Epoch [ 23/50] Loss: 8.2441 | Contrast Acc: 0.5427 | LR: 0.114187
+Epoch [ 24/50] Loss: 8.2313 | Contrast Acc: 0.5518 | LR: 0.109049
+Epoch [ 25/50] Loss: 8.2161 | Contrast Acc: 0.5602 | LR: 0.103701
+Epoch [ 26/50] Loss: 8.2079 | Contrast Acc: 0.5719 | LR: 0.098176
+Epoch [ 27/50] Loss: 8.1980 | Contrast Acc: 0.5744 | LR: 0.092508
+Epoch [ 28/50] Loss: 8.1908 | Contrast Acc: 0.5865 | LR: 0.086733
+Epoch [ 29/50] Loss: 8.1793 | Contrast Acc: 0.5957 | LR: 0.080884
+Epoch [ 30/50] Loss: 8.1726 | Contrast Acc: 0.5932 | LR: 0.075000
+Epoch [ 31/50] Loss: 8.1602 | Contrast Acc: 0.6037 | LR: 0.069116
+Epoch [ 32/50] Loss: 8.1591 | Contrast Acc: 0.6119 | LR: 0.063267
+Epoch [ 33/50] Loss: 8.1570 | Contrast Acc: 0.6112 | LR: 0.057492
+Epoch [ 34/50] Loss: 8.1467 | Contrast Acc: 0.6162 | LR: 0.051824
+Epoch [ 35/50] Loss: 8.1409 | Contrast Acc: 0.6192 | LR: 0.046299
+Epoch [ 36/50] Loss: 8.1392 | Contrast Acc: 0.6200 | LR: 0.040951
+Epoch [ 37/50] Loss: 8.1371 | Contrast Acc: 0.6276 | LR: 0.035813
+Epoch [ 38/50] Loss: 8.1289 | Contrast Acc: 0.6316 | LR: 0.030916
+Epoch [ 39/50] Loss: 8.1287 | Contrast Acc: 0.6327 | LR: 0.026291
+Epoch [ 40/50] Loss: 8.1200 | Contrast Acc: 0.6332 | LR: 0.021967
+Epoch [ 41/50] Loss: 8.1198 | Contrast Acc: 0.6347 | LR: 0.017970
+Epoch [ 42/50] Loss: 8.1137 | Contrast Acc: 0.6398 | LR: 0.014324
+Epoch [ 43/50] Loss: 8.1159 | Contrast Acc: 0.6371 | LR: 0.011052
+Epoch [ 44/50] Loss: 8.1119 | Contrast Acc: 0.6459 | LR: 0.008175
+Epoch [ 45/50] Loss: 8.1092 | Contrast Acc: 0.6422 | LR: 0.005709
+Epoch [ 46/50] Loss: 8.1073 | Contrast Acc: 0.6419 | LR: 0.003671
+Epoch [ 47/50] Loss: 8.1026 | Contrast Acc: 0.6452 | LR: 0.002072
+Epoch [ 48/50] Loss: 8.1002 | Contrast Acc: 0.6450 | LR: 0.000923
+Epoch [ 49/50] Loss: 8.1106 | Contrast Acc: 0.6436 | LR: 0.000231
+Epoch [ 50/50] Loss: 8.1094 | Contrast Acc: 0.6459 | LR: 0.000000
+

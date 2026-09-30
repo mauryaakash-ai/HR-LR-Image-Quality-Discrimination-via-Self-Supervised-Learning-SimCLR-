@@ -1,0 +1,33 @@
+======================================================================
+Log Source: training_log_finetune256_bicubic_samelocation_20260711_144244.log
+======================================================================
+
+--- Experiment Configuration ---
+HR patch: 256x256 | LR patch: 64x64 → resized to 256x256
+HR patch: 256x256 | LR patch: 64x64 → resized to 256x256
+Train batches: 1312 | Val batches: 188
+Starting paired HR vs LR fine-tuning (20 epochs)...
+=== Best Val Accuracy: 99.97% ===
+
+--- Training Trajectory ---
+Epoch [ 1/20] Loss: 0.2344 | Train Acc: 90.00% | Val Acc: 93.38%
+Epoch [ 2/20] Loss: 0.1008 | Train Acc: 95.16% | Val Acc: 96.74%
+Epoch [ 3/20] Loss: 0.0441 | Train Acc: 97.97% | Val Acc: 97.61%
+Epoch [ 4/20] Loss: 0.0204 | Train Acc: 99.22% | Val Acc: 99.75%
+Epoch [ 5/20] Loss: 0.0107 | Train Acc: 99.58% | Val Acc: 99.65%
+Epoch [ 6/20] Loss: 0.0090 | Train Acc: 99.67% | Val Acc: 99.35%
+Epoch [ 7/20] Loss: 0.0056 | Train Acc: 99.81% | Val Acc: 99.95%
+Epoch [ 8/20] Loss: 0.0043 | Train Acc: 99.84% | Val Acc: 98.57%
+Epoch [ 9/20] Loss: 0.0031 | Train Acc: 99.89% | Val Acc: 99.97%
+Epoch [10/20] Loss: 0.0018 | Train Acc: 99.93% | Val Acc: 99.97%
+Epoch [11/20] Loss: 0.0017 | Train Acc: 99.93% | Val Acc: 99.95%
+Epoch [12/20] Loss: 0.0015 | Train Acc: 99.94% | Val Acc: 99.97%
+Epoch [13/20] Loss: 0.0012 | Train Acc: 99.94% | Val Acc: 99.97%
+Epoch [14/20] Loss: 0.0012 | Train Acc: 99.94% | Val Acc: 99.97%
+Epoch [15/20] Loss: 0.0012 | Train Acc: 99.94% | Val Acc: 99.97%
+Epoch [16/20] Loss: 0.0010 | Train Acc: 99.95% | Val Acc: 99.97%
+Epoch [17/20] Loss: 0.0010 | Train Acc: 99.95% | Val Acc: 99.95%
+Epoch [18/20] Loss: 0.0010 | Train Acc: 99.94% | Val Acc: 99.95%
+Epoch [19/20] Loss: 0.0010 | Train Acc: 99.94% | Val Acc: 99.97%
+Epoch [20/20] Loss: 0.0010 | Train Acc: 99.94% | Val Acc: 99.97%
+
