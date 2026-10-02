@@ -262,4 +262,4 @@ python infer_hr_lr.py \
 1. **SimCLR v1**: Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton. *"A Simple Framework for Contrastive Learning of Visual Representations"*, ICML 2020. [arXiv:2002.05709](https://arxiv.org/abs/2002.05709).
 2. **SimCLRv2**: Ting Chen, Simon Kornblith, Kevin Swersky, Mohammad Norouzi, Geoffrey Hinton. *"Big Self-Supervised Models are Strong Semi-Supervised Learners"*, NeurIPS 2020. [arXiv:2006.10029](https://arxiv.org/abs/2006.10029).
 3. **Official SimCLR Repository**: [google-research/simclr](https://github.com/google-research/simclr) (TensorFlow).
-4. **DIV2K Dataset**: Radu Timofte et al. *"NTIRE 2017 Challenge on Single Image Super-Resolution: Methods and Results"*, CVPRW 2017.
+
